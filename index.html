@@ -109,7 +109,7 @@
     {
       "@type": "Question",
       "name": "How did Sails Software help achieve 109% profit growth for a FinTech credit platform?",
-      "acceptedAnswer": {"@type": "Answer", "text": "Sails designed and delivered a full AI-powered credit management platform — covering the borrower application journey, the lender console, and an ML-powered transaction categorization engine. By replacing rigid legacy lending forms with intelligent, real-time credit decisions, the platform enabled the FinTech to onboard new clients rapidly, reduce default risk, and shift lender collections strategy from outbound to inbound — collectively driving 109% profit growth."}
+      "acceptedAnswer": {"@type": "Answer", "text": "Sails Software designed and delivered a full AI-powered credit management platform — covering the borrower application journey, the lender console, and an ML-powered transaction categorization engine. By replacing rigid legacy lending forms with intelligent, real-time credit decisions, the platform enabled the FinTech to onboard new clients rapidly, reduce default risk, and shift lender collections strategy from outbound to inbound — collectively driving 109% profit growth."}
     },
     {
       "@type": "Question",
@@ -124,7 +124,7 @@
     {
       "@type": "Question",
       "name": "What was Sails Software\'s role in achieving ISO certification for the FinTech platform?",
-      "acceptedAnswer": {"@type": "Answer", "text": "Sails assisted the FinTech client in achieving ISO certification by ensuring the platform architecture, data handling practices, and security controls met the rigorous requirements of the standard. ISO certification demonstrates that the platform operates at the highest levels of security and compliance — critical for a regulated financial services environment where data integrity and borrower privacy are non-negotiable."}
+      "acceptedAnswer": {"@type": "Answer", "text": "Sails Software assisted the FinTech client in achieving ISO certification by ensuring the platform architecture, data handling practices, and security controls met the rigorous requirements of the standard. ISO certification demonstrates that the platform operates at the highest levels of security and compliance — critical for a regulated financial services environment where data integrity and borrower privacy are non-negotiable."}
     },
     {
       "@type": "Question",
@@ -134,7 +134,7 @@
     {
       "@type": "Question",
       "name": "What does Sails Software build for financial services and FinTech companies?",
-      "acceptedAnswer": {"@type": "Answer", "text": "Sails Software builds AI-powered platforms, data engineering infrastructure, and enterprise applications for FinTech and financial services organisations. Capabilities include machine learning model development, real-time data pipelines, borrower journey design, lender console platforms, regulatory compliance engineering, ISO certification support, and cloud-native architecture across Azure, AWS, and GCP. Sails acts as a full-stack growth partner — from initial deployment through to production scale."}
+      "acceptedAnswer": {"@type": "Answer", "text": "Sails Software builds AI-powered platforms, data engineering infrastructure, and enterprise applications for FinTech and financial services organisations. Capabilities include machine learning model development, real-time data pipelines, borrower journey design, lender console platforms, regulatory compliance engineering, ISO certification support, and cloud-native architecture across Azure, AWS, and GCP. Sails Software acts as a full-stack growth partner — from initial deployment through to production scale."}
     }
   ]
 }
@@ -286,14 +286,15 @@
   .result-sub { font-size: 0.8rem; font-weight: 500; text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-muted); margin-top: 0.5rem; line-height: 1.4; }
 
   /* OUTCOMES */
-  .outcomes-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1.5rem; margin-top: 2rem; align-items: stretch; }
-  .outcome-item { display: grid; grid-template-columns: 52px 1fr; gap: 1.25rem; align-items: start; background: var(--bg-card); border: 1px solid var(--border-card); border-radius: 10px; padding: 1.5rem; transition: box-shadow 0.3s, transform 0.3s; }
+  .outcomes-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1.25rem; margin-top: 2rem; }
+  .outcome-item { display: flex; flex-direction: column; gap: 1rem; background: var(--bg-card); border: 1px solid var(--border-card); border-radius: 12px; padding: 1.75rem; transition: box-shadow 0.3s, transform 0.3s; }
+  .outcome-header { display: flex; align-items: center; gap: 1rem; flex-shrink: 0; }
   .outcome-item:hover { box-shadow: 0 8px 28px rgba(110,193,228,0.12); transform: translateY(-3px); }
   .outcome-num { width: 48px; height: 48px; background: var(--bg-accent); border: 1px solid rgba(110,193,228,0.25); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1rem; font-weight: 600; color: var(--sky); flex-shrink: 0; }
-  .outcome-content h3 { font-size: 0.9rem; font-weight: 700; color: var(--text-white); text-transform: none; letter-spacing: normal; margin-bottom: 0.4rem; }
-  .outcome-content p { font-size: 0.875rem; line-height: 1.65; }
-  .outcome-stat { display: inline-flex; align-items: center; gap: 0.35rem; background: rgba(17,172,132,0.1); border: 1px solid rgba(17,172,132,0.3); color: var(--text-white); font-size: 0.75rem; font-weight: 600; padding: 0.2rem 0.65rem; border-radius: 100px; margin-top: 0.65rem; }
-  .outcome-stat::before { content: '\2191'; color: var(--green); }
+  .outcome-title { font-size: 1rem; font-weight: 700; color: var(--text-white); letter-spacing: normal; margin: 0; font-family: 'Poppins', sans-serif; }
+  .outcome-desc { font-size: 0.875rem; line-height: 1.7; color: var(--text-muted); flex: 1; margin: 0; }
+  .outcome-stat { display: inline-flex; align-items: center; gap: 0.4rem; background: var(--bg-accent); border: 1px solid rgba(110,193,228,0.4); color: var(--text-white); font-size: 0.78rem; font-weight: 500; padding: 0.4rem 1rem; border-radius: 6px; align-self: flex-start; flex-shrink: 0; }
+  .outcome-stat::before { content: '↑'; color: var(--sky); margin-right: 0.2rem; }
 
   /* QUOTE */
   .cs-quote { border-left: 3px solid var(--sky); background: var(--bg-card); border-radius: 0 10px 10px 0; padding: 1.75rem 2rem; margin: 2rem 0; }
@@ -368,7 +369,7 @@
     .cta-section { padding: 3.5rem 5%; }
     .cta-btn { display: block; width: 100%; max-width: 320px; margin: 0 auto 0.75rem; text-align: center; }
     .cta-section h2 { font-size: clamp(1.2rem, 5vw, 1.6rem); white-space: normal; }
-    .outcome-item { grid-template-columns: 42px 1fr; gap: 1rem; }
+    .outcome-item { gap: 0.65rem; padding: 1.25rem; }
     .accolade-row { gap: 0.65rem; }
     .contrib-head { padding: 0.85rem 1.25rem; }
     .contrib-body { padding: 1rem 1.25rem; }
@@ -401,7 +402,7 @@
     .tag-pill { font-size: 0.62rem; padding: 0.3rem 0.75rem; }
     .section-label { font-size: 0.65rem; }
     .ml-box { padding: 1.25rem; }
-    .outcome-item { grid-template-columns: 38px 1fr; padding: 1.25rem; }
+    .outcome-item { gap: 0.5rem; padding: 1rem; }
     .outcome-num { width: 38px; height: 38px; font-size: 0.8rem; }
     @media (prefers-reduced-motion: reduce) {
       .anim-card, .result-tile { animation: none; opacity: 1; transform: none; transition: none; }
@@ -452,6 +453,27 @@
     .stat-item:last-child { border-right: none; }
   }
 
+
+  /* PSO BOXES */
+  .pso-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-top: 2.5rem; margin-bottom: 0; }
+  .pso-box { background: var(--bg-card); border: 1px solid var(--border-card); border-radius: 10px; padding: 1.5rem; }
+  .pso-outcome { grid-column: 1 / -1; }
+  .pso-label { font-size: 0.7rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.14em; margin-bottom: 0.5rem; }
+  .pso-problem .pso-label { color: var(--coral); }
+  .pso-solution .pso-label { color: var(--sky); }
+  .pso-outcome .pso-label { color: var(--green); }
+  .pso-box p { font-size: 0.9rem; line-height: 1.7; }
+  .pso-problem { border-top: 2px solid var(--coral); }
+  .pso-solution { border-top: 2px solid var(--sky); }
+  .pso-outcome { border-top: 2px solid var(--green); }
+
+  /* Outcome responsive */
+  @media (max-width: 480px) {
+    .pso-grid { grid-template-columns: 1fr; }
+    .pso-outcome { grid-column: 1; }
+    .outcome-header { gap: 0.75rem; }
+    .outcome-stat { white-space: normal; }
+  }
 </style>
 </head>
 <body>
@@ -500,8 +522,19 @@
     <h2 id="overview-heading">A Credit Assessment Platform Built to Reduce Default Rates</h2>
     <p>The client is a developer of an AI-powered credit assessment platform serving credit unions and lenders designed to reduce default rates by warning lenders early — in real time — of impending credit delinquency. The platform monitors active credit products, forecasts future affordability, and gives lenders a complete view of each borrower's financial footprint. By proactively engaging borrowers with personalised solutions, it enables lenders to shift their collections strategy from outbound chasing to inbound engagement — a fundamental change in how consumer credit risk is managed.</p>
 
-    <div class="insight-box anim-card" style="margin-bottom:2rem;">
-      <p><strong>Problem:</strong> Rigid lending forms and legacy systems led to higher rejection rates for qualified borrowers and operational bottlenecks across the credit workflow. &nbsp;<strong>Solution:</strong> AI-powered credit assessment with real-time transaction categorization, affordability forecasting, and an intelligent lender console. &nbsp;<strong>Outcome:</strong> 109% profit growth, ISO certification, industry award, and a fundamentally transformed collections strategy.</p>
+    <div class="pso-grid anim-card">
+      <div class="pso-box pso-problem">
+        <div class="pso-label">Problem</div>
+        <p>Rigid lending forms and legacy systems led to higher rejection rates for qualified borrowers and operational bottlenecks across the credit workflow.</p>
+      </div>
+      <div class="pso-box pso-solution">
+        <div class="pso-label">Solution</div>
+        <p>AI-powered credit assessment with real-time transaction categorization, affordability forecasting, and an intelligent lender console.</p>
+      </div>
+      <div class="pso-box pso-outcome">
+        <div class="pso-label">Outcome</div>
+        <p>109% profit growth, ISO certification, industry award, and a fundamentally transformed collections strategy.</p>
+      </div>
     </div>
     <div class="cs-quote">
       <p>"The remarkable progress of this FinTech platform can be attributed to its collaboration with Sails Software Inc. Together, we designed and delivered an AI-powered credit management solution that enhances credit reporting, regulatory compliance, and decision-making through real-time insights."</p>
@@ -536,22 +569,19 @@
 <section class="cs-section cs-section-alt" aria-labelledby="problem-heading">
   <div class="container">
     <div class="section-label">The Problem</div>
-    <h2 id="problem-heading">Outdated Manual Processes Holding Lenders — and Borrowers — Back</h2>
+    <h2 id="problem-heading">Outdated Manual Processes are Holding back both Lenders and Borrowers</h2>
     <p>Credit unions and lenders were being held back by outdated, manual processes that slowed credit decisions, increased friction, and made it harder for deserving borrowers to access loans. Traditional systems depended on rigid forms and inefficient workflows — leading to missed opportunities for both institutions and creditworthy applicants who simply didn't fit the standard mould.</p>
 
     <div class="problem-grid">
       <div class="problem-card anim-card">
-        <div class="problem-num">01</div>
         <h3>High Rejection Rates for Qualified Borrowers</h3>
         <p>Inefficient processes and legacy systems raised rejection rates for borrowers who were creditworthy but didn't fit rigid form-based evaluation criteria — costing lenders good business and borrowers access to credit.</p>
       </div>
       <div class="problem-card anim-card">
-        <div class="problem-num">02</div>
         <h3>Manual Data Handling Slowing Operations</h3>
         <p>Manual transaction analysis and data handling created bottlenecks throughout the lending workflow — frustrating staff, delaying decisions, and creating an operationally unsustainable process at scale.</p>
       </div>
       <div class="problem-card anim-card">
-        <div class="problem-num">03</div>
         <h3>Outdated Technology Limiting Inclusivity</h3>
         <p>Legacy technology restricted borrower inclusivity by missing critical financial context that exists outside standard credit bureau data — leaving significant lending opportunity on the table for every institution using it.</p>
       </div>
@@ -562,9 +592,9 @@
 <!-- KEY CONTRIBUTIONS -->
 <section class="cs-section" aria-labelledby="contributions-heading">
   <div class="container">
-    <div class="section-label">Key Contributions by Sails</div>
+    <div class="section-label">Key Contributions by Sails Software</div>
     <h2 id="contributions-heading">From First Deployment to Full Production — Three Critical Milestones</h2>
-    <p>Sails acted as a true end-to-end engineering partner — not just a development vendor. Every milestone was executed with both technical precision and an understanding of the compliance and performance standards required in a regulated financial services environment.</p>
+    <p>Sails Software acted as a true end-to-end engineering partner — not just a development vendor. Every milestone was executed with both technical precision and an understanding of the compliance and performance standards required in a regulated financial services environment.</p>
 
     <div class="contrib-grid">
       <div class="contrib-card anim-card">
@@ -575,7 +605,7 @@
           <h3>Initial Launch</h3>
         </div>
         <div class="contrib-body">
-          <p>Guided the platform through its first live deployment and real customer interactions — translating product vision into a production-ready system that could handle genuine lending decisions from day one. Sails managed the full go-live process, including testing, integration, and performance validation under live conditions.</p>
+          <p>Guided the platform through its first live deployment and real customer interactions — translating product vision into a production-ready system that could handle genuine lending decisions from day one. Sails Software managed the full go-live process, including testing, integration, and performance validation under live conditions.</p>
         </div>
       </div>
       <div class="contrib-card anim-card">
@@ -609,7 +639,7 @@
   <div class="container">
     <div class="section-label">AI &amp; Machine Learning</div>
     <h2 id="ml-heading">The AI-Powered Transaction Categorization Engine</h2>
-    <p>At the core of the platform's intelligence is a machine learning engine built by Sails — designed to turn raw financial transaction data into structured, actionable lending insights at scale.</p>
+    <p>At the core of the platform's intelligence is a machine learning engine built by Sails Software — designed to turn raw financial transaction data into structured, actionable lending insights at scale.</p>
 
     <div class="ml-box anim-card">
       <div class="ml-box-text">
@@ -664,7 +694,7 @@
   <div class="results-strip-inner">
     <div class="result-tile"><span class="result-big">109%</span><div class="result-sub">Profit Growth<br>Achieved</div></div>
     <div class="result-tile"><span class="result-big">ISO</span><div class="result-sub">Security Certification<br>Achieved</div></div>
-    <div class="result-tile"><span class="result-big">0→∞</span><div class="result-sub">First Deployment<br>to Scale</div></div>
+    <div class="result-tile"><span class="result-big">Launch</span><div class="result-sub">First Deployment<br>to Scale</div></div>
     <div class="result-tile"><span class="result-big">Award</span><div class="result-sub">FinTech for Good<br>Recognition</div></div>
   </div>
 </div>
@@ -677,42 +707,47 @@
     <p>The collaboration delivered outcomes across every dimension of the business — financial performance, compliance, product capability, and industry recognition. Each outcome is directly traceable to specific engineering decisions made during the partnership.</p>
 
     <div class="outcomes-grid">
+
       <div class="outcome-item anim-card">
-        <div class="outcome-num">01</div>
-        <div class="outcome-content">
-          <h3>109% Profit Growth</h3>
-          <p>By replacing rigid legacy lending processes with AI-driven credit decisions, the platform enabled the client to onboard more creditworthy borrowers, reduce default losses, and operate at significantly greater scale — collectively delivering 109% profit growth.</p>
-          <div class="outcome-stat">109% profit growth achieved</div>
+        <div class="outcome-header">
+          <div class="outcome-num">01</div>
+          <h3 class="outcome-title">109% Profit Growth</h3>
         </div>
+        <p class="outcome-desc">By replacing rigid legacy lending processes with AI-driven credit decisions, the platform enabled the client to onboard more creditworthy borrowers, reduce default losses, and operate at significantly greater scale — collectively delivering 109% profit growth.</p>
+        <div class="outcome-stat">109% profit growth achieved</div>
       </div>
+
       <div class="outcome-item anim-card">
-        <div class="outcome-num">02</div>
-        <div class="outcome-content">
-          <h3>FinTech for Good Industry Award</h3>
-          <p>The platform's impact on borrower inclusivity and responsible lending was recognised by the industry with a FinTech for Good award — validating that AI-powered credit assessment can simultaneously improve lender outcomes and expand access to financial services for underserved borrowers.</p>
-          <div class="outcome-stat">Industry award for responsible lending innovation</div>
+        <div class="outcome-header">
+          <div class="outcome-num">02</div>
+          <h3 class="outcome-title">FinTech for Good Industry Award</h3>
         </div>
+        <p class="outcome-desc">The platform's impact on borrower inclusivity and responsible lending was recognised by the industry with a FinTech for Good award — validating that AI-powered credit assessment can simultaneously improve lender outcomes and expand access to financial services for underserved borrowers.</p>
+        <div class="outcome-stat">Industry award for responsible lending innovation</div>
       </div>
+
       <div class="outcome-item anim-card">
-        <div class="outcome-num">03</div>
-        <div class="outcome-content">
-          <h3>ISO Certification &amp; Enterprise-Grade Trust</h3>
-          <p>Achieving ISO certification unlocked enterprise-grade client onboarding — giving lenders and financial institutions the security assurance required to adopt the platform at scale in regulated environments. Compliance is now a competitive advantage, not a bottleneck.</p>
-          <div class="outcome-stat">ISO certified — compliance as competitive advantage</div>
+        <div class="outcome-header">
+          <div class="outcome-num">03</div>
+          <h3 class="outcome-title">ISO Certification &amp; Enterprise-Grade Trust</h3>
         </div>
+        <p class="outcome-desc">Achieving ISO certification unlocked enterprise-grade client onboarding — giving lenders and financial institutions the security assurance required to adopt the platform at scale in regulated environments. Compliance is now a competitive advantage, not a bottleneck.</p>
+        <div class="outcome-stat">ISO certified — compliance as competitive advantage</div>
       </div>
+
       <div class="outcome-item anim-card">
-        <div class="outcome-num">04</div>
-        <div class="outcome-content">
-          <h3>Collections Strategy Transformed</h3>
-          <p>The early delinquency warning system and proactive borrower engagement tools enabled lenders to shift from outbound collections — chasing borrowers after default — to inbound engagement, where borrowers reach out for help before they miss a payment. A structural improvement in how credit risk is managed.</p>
-          <div class="outcome-stat">Outbound collections → inbound engagement</div>
+        <div class="outcome-header">
+          <div class="outcome-num">04</div>
+          <h3 class="outcome-title">Collections Strategy Transformed</h3>
         </div>
+        <p class="outcome-desc">The early delinquency warning system and proactive borrower engagement tools enabled lenders to shift from outbound collections — chasing borrowers after default — to inbound engagement, where borrowers reach out for help before they miss a payment. A structural improvement in how credit risk is managed.</p>
+        <div class="outcome-stat">Outbound collections &#8594; inbound engagement</div>
       </div>
+
     </div>
 
     <div class="insight-box anim-card" style="margin-top: 2rem;">
-      <p><strong>The Sails Difference:</strong> By integrating AI, automation, and robust data analytics, Sails assisted in delivering a smarter, more inclusive lending experience — one that empowers financial institutions to lend with confidence and borrowers to access opportunities with ease. At Sails, our mission is simple yet powerful: to transform ideas into impactful, future-ready solutions.</p>
+      <p><strong>The Sails Software Difference:</strong> By integrating AI, automation, and robust data analytics, Sails Software assisted in delivering a smarter, more inclusive lending experience — one that empowers financial institutions to lend with confidence and borrowers to access opportunities with ease. At Sails Software, our mission is simple yet powerful: to transform ideas into impactful, future-ready solutions.</p>
     </div>
   </div>
 </section>
@@ -731,7 +766,7 @@
           <span class="faq-icon" aria-hidden="true">+</span>
         </button>
         <div class="faq-answer" id="faq-a1">
-          <p>Sails designed and delivered a full AI-powered credit management platform — covering the borrower application journey, the lender console, and an ML-powered transaction categorization engine. By replacing rigid legacy lending forms with intelligent, real-time credit decisions, the platform enabled the client to onboard new borrowers more accurately, reduce default risk, and shift collections from outbound to inbound — collectively driving 109% profit growth.</p>
+          <p>Sails Software designed and delivered a full AI-powered credit management platform — covering the borrower application journey, the lender console, and an ML-powered transaction categorization engine. By replacing rigid legacy lending forms with intelligent, real-time credit decisions, the platform enabled the client to onboard new borrowers more accurately, reduce default risk, and shift collections from outbound to inbound — collectively driving 109% profit growth.</p>
         </div>
       </div>
 
@@ -761,7 +796,7 @@
           <span class="faq-icon" aria-hidden="true">+</span>
         </button>
         <div class="faq-answer" id="faq-a4">
-          <p>Sails assisted the FinTech client in achieving ISO certification by ensuring the platform architecture, data handling practices, and security controls met the rigorous requirements of the standard. ISO certification demonstrates that the platform operates at the highest levels of security and compliance — critical for a regulated financial services environment where data integrity and borrower privacy are non-negotiable. It directly enabled enterprise-grade lender onboarding.</p>
+          <p>Sails Software assisted the FinTech client in achieving ISO certification by ensuring the platform architecture, data handling practices, and security controls met the rigorous requirements of the standard. ISO certification demonstrates that the platform operates at the highest levels of security and compliance — critical for a regulated financial services environment where data integrity and borrower privacy are non-negotiable. It directly enabled enterprise-grade lender onboarding.</p>
         </div>
       </div>
 
@@ -781,7 +816,7 @@
           <span class="faq-icon" aria-hidden="true">+</span>
         </button>
         <div class="faq-answer" id="faq-a6">
-          <p>Sails Software builds AI-powered platforms, data engineering infrastructure, and enterprise applications for FinTech and financial services organisations. Capabilities include machine learning model development, real-time data pipelines, borrower journey design, lender console platforms, regulatory compliance engineering, ISO certification support, and cloud-native architecture across Azure, AWS, and GCP. Sails acts as a full-stack engineering and growth partner — from initial deployment through to production scale.</p>
+          <p>Sails Software builds AI-powered platforms, data engineering infrastructure, and enterprise applications for FinTech and financial services organisations. Capabilities include machine learning model development, real-time data pipelines, borrower journey design, lender console platforms, regulatory compliance engineering, ISO certification support, and cloud-native architecture across Azure, AWS, and GCP. Sails Software acts as a full-stack engineering and growth partner — from initial deployment through to production scale.</p>
         </div>
       </div>
     </div>
@@ -792,7 +827,7 @@
 <div class="cta-section">
   <div class="container">
     <h2>Ready to Transform Your Lending Platform with AI?</h2>
-    <p class="cta-tagline">Sails isn&#39;t just a vendor &mdash; it&#39;s your growth partner.</p>
+    <p class="cta-tagline">Sails Software isn&#39;t just a vendor &mdash; it&#39;s your growth partner.</p>
     <p class="t-tagline">Let&#39;s discuss how AI-powered credit management, real-time delinquency prediction, and intelligent lending automation can deliver transformational growth for your FinTech or financial services platform.</p>
     <a href="https://sailssoftware.com/contact-us/" class="cta-btn">Talk to Our Team</a>
     <a href="https://sailssoftware.com/contact-us/" class="cta-btn outline">Request a Consultation</a>
